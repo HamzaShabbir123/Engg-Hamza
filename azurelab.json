@@ -1,0 +1,38 @@
+{
+    "sku": {
+        "name": "GP_Gen5",
+        "tier": "GeneralPurpose",
+        "family": "Gen5",
+        "capacity": 2
+    },
+    "kind": "v12.0,user,vcore",
+    "properties": {
+        "collation": "SQL_Latin1_General_CP1_CI_AS",
+        "maxSizeBytes": 34359738368,
+        "status": "Online",
+        "databaseId": "7024bd0d-cdf4-46ce-a003-0184cf8aa57f",
+        "creationDate": "2020-12-20T14:01:25.06Z",
+        "currentServiceObjectiveName": "GP_Gen5_2",
+        "requestedServiceObjectiveName": "GP_Gen5_2",
+        "defaultSecondaryLocation": "westus",
+        "catalogCollation": "SQL_Latin1_General_CP1_CI_AS",
+        "zoneRedundant": false,
+        "licenseType": "LicenseIncluded",
+        "maxLogSizeBytes": 10307921510,
+        "earliestRestoreDate": "2020-12-20T14:02:59Z",
+        "readScale": "Disabled",
+        "readReplicaCount": 0,
+        "currentSku": {
+            "name": "GP_Gen5",
+            "tier": "GeneralPurpose",
+            "family": "Gen5",
+            "capacity": 2
+        },
+        "storageAccountType": "GRS"
+    },
+    "location": "eastus",
+    "tags": {},
+    "id": "/subscriptions/37c8f5e3-e69d-478d-bb8a-d0d953808ad2/resourceGroups/learn-93618f03-01f9-4dbf-9f30-02d740bde869/providers/Microsoft.Sql/servers/hamzaserver123/databases/db1",
+    "name": "db1",
+    "type": "Microsoft.Sql/servers/databases"
+}
